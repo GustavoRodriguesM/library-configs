@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: category-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+geral-service:
+  gretting: "Hello"
+  default-value: "World"
